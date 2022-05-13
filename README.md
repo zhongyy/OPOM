@@ -8,7 +8,7 @@ While convenient in daily life, face recognition technologies also raise privacy
 ## Usage Instructions
 
 ### Environment
-Install Anaconda, Pytorch and MxNet. For other libs, please refer to the file requirements.txt.
+Please install Anaconda, Pytorch and MxNet. For other libs, please refer to the file requirements.txt.
 
 ```
 conda create -n OPOM python=3.7
