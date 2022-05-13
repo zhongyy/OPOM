@@ -59,3 +59,6 @@ If you find **OPOM** useful in your research, please consider to cite:
 	  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
 	  year = {2022}
 	}
+
+## Acknowledgment
+We would like to thank Jinglin Zhang and Xuannan Liu for useful feedback, and anonymous referees for their valuable comments. 
