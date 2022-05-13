@@ -1,0 +1,126 @@
+[20:49:39] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[20:49:39] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+[20:49:39] src/base.cc:51: Upgrade advisory: this mxnet has been built against cuda library version 9000, which is older than the oldest version tested by CI (10000).  Set MXNET_CUDA_LIB_CHECKING=0 to quiet this warning.
+[20:49:43] src/operator/nn/./cudnn/./cudnn_algoreg-inl.h:97: Running performance tests to find the best convolution algorithm, this can take a while... (set the environment variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+[20:50:04] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[20:50:04] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+[20:50:11] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[20:50:11] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+Namespace(batch_size=500, gallery_image_type='lfw', gallery_noise_dir='../../data/lfw_112x112/', gallery_noise_list='../../data/lfw.txt', gpu=2, lenth=13233, msk_dir='../generation/masks/celeb_IR_50-Softmax-casia_rd16a8_FI-UAP/', pretrained='../../models/target/r50_webface_arc_bs/model,146', query_image_dir='../../data/', query_test_image_list='../../data/privacy_ms90w_test.lst', test_img_per_id=10)
+processing 0
+processing 0
+processing 0
+processing 10000
+(5000, 512)
+(5000, 512)
+(13233, 512)
+45000 13233
+acc top1 = 0.43440, protect top1 = 0.56560
+acc top5 = 0.54538, protect top5 = 0.45462
+acc top10 = 0.58858, protect top10 = 0.41142
+time consumed:  0:02:25.620889
+[20:52:06] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[20:52:06] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+[20:52:06] src/base.cc:51: Upgrade advisory: this mxnet has been built against cuda library version 9000, which is older than the oldest version tested by CI (10000).  Set MXNET_CUDA_LIB_CHECKING=0 to quiet this warning.
+[20:52:11] src/operator/nn/./cudnn/./cudnn_algoreg-inl.h:97: Running performance tests to find the best convolution algorithm, this can take a while... (set the environment variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+[20:52:32] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[20:52:32] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+[20:52:40] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[20:52:40] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+Namespace(batch_size=500, gallery_image_type='lfw', gallery_noise_dir='../../data/lfw_112x112/', gallery_noise_list='../../data/lfw.txt', gpu=2, lenth=13233, msk_dir='../generation/masks/celeb_IR_50-Softmax-casia_rd16a8_FI-UAP/', pretrained='../../models/target/r50_webface_cos_bs/model,82', query_image_dir='../../data/', query_test_image_list='../../data/privacy_ms90w_test.lst', test_img_per_id=10)
+processing 0
+processing 0
+processing 0
+processing 10000
+(5000, 512)
+(5000, 512)
+(13233, 512)
+45000 13233
+acc top1 = 0.54820, protect top1 = 0.45180
+acc top5 = 0.64958, protect top5 = 0.35042
+acc top10 = 0.68404, protect top10 = 0.31596
+time consumed:  0:02:29.746528
+[20:54:38] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[20:54:38] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+[20:54:38] src/base.cc:51: Upgrade advisory: this mxnet has been built against cuda library version 9000, which is older than the oldest version tested by CI (10000).  Set MXNET_CUDA_LIB_CHECKING=0 to quiet this warning.
+[20:54:42] src/operator/nn/./cudnn/./cudnn_algoreg-inl.h:97: Running performance tests to find the best convolution algorithm, this can take a while... (set the environment variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+[20:55:03] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[20:55:03] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+[20:55:11] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[20:55:11] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+Namespace(batch_size=500, gallery_image_type='lfw', gallery_noise_dir='../../data/lfw_112x112/', gallery_noise_list='../../data/lfw.txt', gpu=2, lenth=13233, msk_dir='../generation/masks/celeb_IR_50-Softmax-casia_rd16a8_FI-UAP/', pretrained='../../models/target/r50_webface_sFace/model_s64a80tb87c80d12,71', query_image_dir='../../data/', query_test_image_list='../../data/privacy_ms90w_test.lst', test_img_per_id=10)
+processing 0
+processing 0
+processing 0
+processing 10000
+(5000, 512)
+(5000, 512)
+(13233, 512)
+45000 13233
+acc top1 = 0.46989, protect top1 = 0.53011
+acc top5 = 0.57609, protect top5 = 0.42391
+acc top10 = 0.61509, protect top10 = 0.38491
+time consumed:  0:02:25.943566
+[20:57:06] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.5.0. Attempting to upgrade...
+[20:57:06] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+[20:57:06] src/base.cc:51: Upgrade advisory: this mxnet has been built against cuda library version 9000, which is older than the oldest version tested by CI (10000).  Set MXNET_CUDA_LIB_CHECKING=0 to quiet this warning.
+[20:57:10] src/operator/nn/./cudnn/./cudnn_algoreg-inl.h:97: Running performance tests to find the best convolution algorithm, this can take a while... (set the environment variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+[20:57:40] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.5.0. Attempting to upgrade...
+[20:57:40] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+[20:57:45] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.5.0. Attempting to upgrade...
+[20:57:45] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+Namespace(batch_size=500, gallery_image_type='lfw', gallery_noise_dir='../../data/lfw_112x112/', gallery_noise_list='../../data/lfw.txt', gpu=2, lenth=13233, msk_dir='../generation/masks/celeb_IR_50-Softmax-casia_rd16a8_FI-UAP/', pretrained='../../models/target/m1_webface_soft/model,51', query_image_dir='../../data/', query_test_image_list='../../data/privacy_ms90w_test.lst', test_img_per_id=10)
+processing 0
+processing 0
+processing 0
+processing 10000
+(5000, 512)
+(5000, 512)
+(13233, 512)
+45000 13233
+acc top1 = 0.39802, protect top1 = 0.60198
+acc top5 = 0.52922, protect top5 = 0.47078
+acc top10 = 0.58604, protect top10 = 0.41396
+time consumed:  0:02:19.142064
+[20:59:27] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[20:59:27] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+[20:59:27] src/base.cc:51: Upgrade advisory: this mxnet has been built against cuda library version 9000, which is older than the oldest version tested by CI (10000).  Set MXNET_CUDA_LIB_CHECKING=0 to quiet this warning.
+[20:59:32] src/operator/nn/./cudnn/./cudnn_algoreg-inl.h:97: Running performance tests to find the best convolution algorithm, this can take a while... (set the environment variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+[20:59:54] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[20:59:54] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+[21:00:02] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[21:00:02] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+Namespace(batch_size=500, gallery_image_type='lfw', gallery_noise_dir='../../data/lfw_112x112/', gallery_noise_list='../../data/lfw.txt', gpu=2, lenth=13233, msk_dir='../generation/masks/celeb_IR_50-Softmax-casia_rd16a8_FI-UAP/', pretrained='../../models/target/ser50_webface_soft/model,25', query_image_dir='../../data/', query_test_image_list='../../data/privacy_ms90w_test.lst', test_img_per_id=10)
+processing 0
+processing 0
+processing 0
+processing 10000
+(5000, 512)
+(5000, 512)
+(13233, 512)
+45000 13233
+acc top1 = 0.38476, protect top1 = 0.61524
+acc top5 = 0.50298, protect top5 = 0.49702
+acc top10 = 0.55180, protect top10 = 0.44820
+time consumed:  0:02:24.493417
+[21:01:54] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[21:01:54] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+[21:01:54] src/base.cc:51: Upgrade advisory: this mxnet has been built against cuda library version 9000, which is older than the oldest version tested by CI (10000).  Set MXNET_CUDA_LIB_CHECKING=0 to quiet this warning.
+[21:01:59] src/operator/nn/./cudnn/./cudnn_algoreg-inl.h:97: Running performance tests to find the best convolution algorithm, this can take a while... (set the environment variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+[21:03:11] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[21:03:11] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+[21:04:10] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.2.1. Attempting to upgrade...
+[21:04:10] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+Namespace(batch_size=100, gallery_image_type='lfw', gallery_noise_dir='../../data/lfw_112x112/', gallery_noise_list='../../data/lfw.txt', gpu=2, lenth=13233, msk_dir='../generation/masks/celeb_IR_50-Softmax-casia_rd16a8_FI-UAP/', pretrained='../../models/target/i1_webface_soft/model_s3,21', query_image_dir='../../data/', query_test_image_list='../../data/privacy_ms90w_test.lst', test_img_per_id=10)
+processing 0
+processing 0
+processing 0
+processing 10000
+(5000, 512)
+(5000, 512)
+(13233, 512)
+45000 13233
+acc top1 = 0.62676, protect top1 = 0.37324
+acc top5 = 0.73793, protect top5 = 0.26207
+acc top10 = 0.77656, protect top10 = 0.22344
+time consumed:  0:06:17.812868
