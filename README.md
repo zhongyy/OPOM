@@ -1,5 +1,5 @@
 # One Person One Mask (OPOM) 
-Code and datasets of TPAMI 2022 paper <OPOM: Customized Invisible Cloak towards Face Privacy Protection>.
+Code and datasets of TPAMI 2022 paper *OPOM: Customized Invisible Cloak towards Face Privacy Protection*.
 
 While convenient in daily life, face recognition technologies also raise privacy concerns for regular users on the social media since they could be used to analyze face images and videos, efficiently and surreptitiously without any security restrictions. We investigate the face privacy protection from a technology standpoint based on a new type of customized cloak, which can be applied to all the images of a regular user, to prevent malicious face recognition systems from uncovering their identity. Specifically, we propose a new method, named one person one mask (OPOM), to generate person-specific (class-wise) universal masks by optimizing each training sample in the direction away from the feature subspace of the source identity. The effectiveness of the proposed method is evaluated on both common and celebrity datasets against black-box face recognition models. 
 
